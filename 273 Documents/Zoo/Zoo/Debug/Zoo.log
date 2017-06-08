@@ -1,0 +1,4 @@
+﻿  Main.cpp
+f:\cs-273\273 documents\zoo\zoo\zoo.h(26): warning C4018: '<': signed/unsigned mismatch
+  Zoo.vcxproj -> F:\CS-273\273 Documents\Zoo\Debug\Zoo.exe
+  Zoo.vcxproj -> F:\CS-273\273 Documents\Zoo\Debug\Zoo.pdb (Partial PDB)

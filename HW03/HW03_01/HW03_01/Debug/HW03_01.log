@@ -1,3 +1,4 @@
-﻿  Readint.cpp
-Main.obj : error LNK2019: unresolved external symbol "int __cdecl read_int(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int)" (?read_int@@YAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) referenced in function _main
-F:\CS-273\HW03\HW03_01\Debug\HW03_01.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Main.cpp
+f:\cs-273\hw03\hw03_01\hw03_01\main.cpp(27): warning C4101: 'e': unreferenced local variable
+  HW03_01.vcxproj -> F:\CS-273\HW03\HW03_01\Debug\HW03_01.exe
+  HW03_01.vcxproj -> F:\CS-273\HW03\HW03_01\Debug\HW03_01.pdb (Partial PDB)

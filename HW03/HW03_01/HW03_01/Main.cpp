@@ -1,25 +1,31 @@
 #include <iostream>
 #include <stdexcept>
+#include <string>
 #include "readint.h"
-using namespace std;
 
 int main()
 {
 	int low, high;
-	cout << "Enter the range of values to read.\n";
-	cout << "high: ";
-	cin >> high;
-	cout << "low: ";
-	cin >> low;
-	try
-	{
-		int number = read_int("Please enter a number within the range: ", low, high);
-		cout << "You entered " << number << endl;
+	bool keepLooping = true;
+	while (keepLooping) { //loop until range is acceptable
+		std::cout << "Enter the range of values to read.\n";
+		std::cout << "high: ";
+		std::cin >> high;
+		std::cout << "low: ";
+		std::cin >> low;
+		if (high <= low - 2)
+			throw std::string("Range not possible");
+		else keepLooping = false;
 	}
-	//The problem is right here!!!
+	try { //check if number is between low and high
+		int number = read_int("Please enter a number within the range: ", low, high);
+		std::cout << "You entered " << number << std::endl;
+	}
+	catch (std::string& ms) {
+		std::cout << ms << std::endl;
+	}
 	catch (std::invalid_argument &e) {
-		e = e;
-		cerr << "Exception: You supplied an invalid argument for read_int!\n";
+		std::cerr << "Exception: You supplied an invalid argument for read_int!\n";
 		abort();
 	}
 }

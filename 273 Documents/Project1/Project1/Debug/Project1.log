@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\timothy\documents\project1\project1\source.cpp(35): warning C4101: 'ex': unreferenced local variable
+  Project1.vcxproj -> C:\Users\Timothy\Documents\Project1\Debug\Project1.exe
+  Project1.vcxproj -> C:\Users\Timothy\Documents\Project1\Debug\Project1.pdb (Partial PDB)
