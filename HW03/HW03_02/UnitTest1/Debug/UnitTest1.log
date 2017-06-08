@@ -1,0 +1,4 @@
+﻿  unittest1.cpp
+     Creating library F:\CS-273\HW03\HW03_02\Debug\UnitTest1.lib and object F:\CS-273\HW03\HW03_02\Debug\UnitTest1.exp
+unittest1.obj : error LNK2019: unresolved external symbol "int __cdecl read_int(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,int)" (?read_int@@YAHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z) referenced in function "private: void __thiscall READINT_TEST::InputsAreTheSame(void)" (?InputsAreTheSame@READINT_TEST@@AAEXXZ)
+F:\CS-273\HW03\HW03_02\Debug\UnitTest1.dll : fatal error LNK1120: 1 unresolved externals

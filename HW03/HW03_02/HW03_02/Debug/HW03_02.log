@@ -1,0 +1,7 @@
+﻿  Readint.cpp
+f:\cs-273\hw03\hw03_02\hw03_02\readint.cpp(16): warning C4101: 'ex': unreferenced local variable
+  Generating Code...
+f:\cs-273\hw03\hw03_02\hw03_02\readint.cpp(22): warning C4715: 'read_int': not all control paths return a value
+  Skipping... (no relevant changes detected)
+  Main.cpp
+  HW03_02.vcxproj -> F:\CS-273\HW03\HW03_02\Debug\HW03_02.lib
