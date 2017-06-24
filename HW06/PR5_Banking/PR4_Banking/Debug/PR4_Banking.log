@@ -1,3 +1,100 @@
 ﻿  Banking_Application.cpp
-  PR4_Banking.vcxproj -> F:\CS-273\HW06\PR5_Banking\Debug\PR4_Banking.exe
-  PR4_Banking.vcxproj -> F:\CS-273\HW06\PR5_Banking\Debug\PR4_Banking.pdb (Full PDB)
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(77): error C2146: syntax error: missing ';' before identifier 'name'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(77): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(77): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(77): error C2039: 'name': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(78): error C2146: syntax error: missing ';' before identifier 'address'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(78): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(78): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(78): error C2039: 'address': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(79): error C2146: syntax error: missing ';' before identifier 'telephone'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(79): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(79): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(79): error C2039: 'telephone': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(80): error C2146: syntax error: missing ';' before identifier 'age'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(80): error C2227: left of '->age' must point to class/struct/union/generic type
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(80): note: type is 'int'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(93): error C2146: syntax error: missing ';' before identifier 'name'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(93): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(93): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(93): error C2039: 'name': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(94): error C2146: syntax error: missing ';' before identifier 'address'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(94): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(94): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(94): error C2039: 'address': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(95): error C2146: syntax error: missing ';' before identifier 'telephone'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(95): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(95): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(95): error C2039: 'telephone': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(96): error C2146: syntax error: missing ';' before identifier 'age'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(96): error C2227: left of '->age' must point to class/struct/union/generic type
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(96): note: type is 'int'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(111): error C2146: syntax error: missing ';' before identifier 'name'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(111): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(111): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(111): error C2039: 'name': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(112): error C2146: syntax error: missing ';' before identifier 'address'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(112): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(112): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(112): error C2039: 'address': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(113): error C2146: syntax error: missing ';' before identifier 'telephone'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(113): error C2819: type 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' does not have an overloaded member 'operator ->'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(113): note: did you intend to use '.' instead?
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(113): error C2039: 'telephone': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(114): error C2146: syntax error: missing ';' before identifier 'age'
+f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(114): error C2227: left of '->age' must point to class/struct/union/generic type
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(114): note: type is 'int'
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(33): error C2248: 'Customer::OVERDRAFT_PENALTY': cannot access protected member declared in class 'Customer'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(24): note: see declaration of 'Customer::OVERDRAFT_PENALTY'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(13): note: see declaration of 'Customer'
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(33): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(34): error C2248: 'Customer::CHECK_CHARGE': cannot access protected member declared in class 'Customer'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(23): note: see declaration of 'Customer::CHECK_CHARGE'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(13): note: see declaration of 'Customer'
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(34): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(55): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(66): note: could be 'Customer &Customer::operator =(Customer &&) noexcept(<expr>)'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(66): note: or       'Customer &Customer::operator =(const Customer &)'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(55): note: while trying to match the argument list '(Customer, int)'
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(142): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(66): note: could be 'Customer &Customer::operator =(Customer &&) noexcept(<expr>)'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(66): note: or       'Customer &Customer::operator =(const Customer &)'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(142): note: while trying to match the argument list '(Customer, int)'
+f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(184): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(66): note: could be 'Customer &Customer::operator =(Customer &&) noexcept(<expr>)'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(66): note: or       'Customer &Customer::operator =(const Customer &)'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(184): note: while trying to match the argument list '(Customer, int)'
+f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(68): error C2259: 'Savings_Account': cannot instantiate abstract class
+  f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(68): note: due to following members:
+  f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(68): note: 'void Account::add_interest(void)': is abstract
+  f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(136): note: see declaration of 'Account::add_interest'
+f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(68): error C2664: 'Savings_Account::Savings_Account(Savings_Account &&)': cannot convert argument 1 from 'Customer' to 'Customer *'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(68): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(70): error C2259: 'Checking_Account': cannot instantiate abstract class
+  f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(70): note: due to following members:
+  f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(70): note: 'void Account::add_interest(void)': is abstract
+  f:\cs-273\hw06\pr5_banking\pr4_banking\account.h(136): note: see declaration of 'Account::add_interest'
+f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(70): error C2664: 'Checking_Account::Checking_Account(Checking_Account &&)': cannot convert argument 1 from 'Customer' to 'Customer *'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(70): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(72): error C2065: 'acct': undeclared identifier
+f:\cs-273\hw06\pr5_banking\pr4_banking\bank.h(109): error C2248: 'Senior::Senior': cannot access private member declared in class 'Senior'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(76): note: see declaration of 'Senior::Senior'
+  f:\cs-273\hw06\pr5_banking\pr4_banking\customer.h(69): note: see declaration of 'Senior'

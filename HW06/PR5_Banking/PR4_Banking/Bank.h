@@ -64,10 +64,10 @@ private:
 	*/
 	Account * add_account (Customer *cust, std::string account_type)
 	{
-		Account *acct = NULL;
-		
-
-		// FIXME: Factory method for creating a Account object (could be a Saving_Account or a Checking_Account).
+		if (account_type == "savings")
+			Account* acct = new Savings_Account(*cust);
+		else if (account_type == "checking")
+			Account* acct = new Checking_Account(*cust);
 		
 		return acct;
 	}

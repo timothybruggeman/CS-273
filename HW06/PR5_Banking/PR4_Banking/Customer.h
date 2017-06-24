@@ -62,6 +62,7 @@ public:
 	void set_customer_number(int Customer_Number) {
 		customer_number = Customer_Number;
 	}
+
 };
 
 
@@ -81,6 +82,7 @@ class Senior : public Customer {
 };
 
 class Adult : public Customer {
+public:
 	Adult() {
 		SAVINGS_INTEREST = 0.009;
 		CHECK_INTEREST = 0.001;
@@ -96,6 +98,7 @@ class Adult : public Customer {
 };
 
 class Student : public Customer {
+public:
 	Student() {
 		{
 			SAVINGS_INTEREST = 0.015;

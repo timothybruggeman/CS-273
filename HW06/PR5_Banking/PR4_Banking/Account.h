@@ -30,13 +30,8 @@ protected:
 	{
 		int overdraft, charge;
 
-		// Polymorphism: calls the correct virtual methods from the specific customer type
-		// FIXME: Get the overdraft and check charge information from this accounts customer
-
-		///////////////////////////////////
-		//I need to know account type and customer type
-		///////////////////////////////////
-
+		overdraft = customer->OVERDRAFT_PENALTY;
+		charge = customer->CHECK_CHARGE;
 
 		std::stringstream ss;
 		ss << "Check Charge: " << charge << " Overdraft Fee: " << overdraft;
@@ -57,6 +52,7 @@ protected:
 	}
 
 public:
+	Account() { *customer = NULL; balance = NULL; account_number = NULL; }
 	/**
 	Constructor requires a customer to create an account
 	Balance always starts with 0 when account is created.
@@ -141,6 +137,88 @@ public:
 
 };
 
+class Savings_Account : public Account {
+Savings_Account() {
+*customer = NULL;
+balance = NULL;
+account_number = NULL;
+}
+Savings_Account(Customer *cust) {
+	*customer = *cust;
+	balance = 0;
+	account_number = NULL;
+}
 
+std::string to_string() {
+	std::stringstream ss; // for composing the string that describes this account		
+
+	ss << "  Name: " << customer->get_name()
+		<< "\n  Address: " << customer->get_address()
+		<< "\n  Age: " << customer->get_age()
+		<< "\n  Telephone number: " << customer->get_telephone_number()
+		<< "\n  Customer number: " << customer->get_customer_number()
+		<< "\n  Balance: " << balance
+		<< "\n  Account ID: " << account_number << std::endl;
+	return ss.str();
+}
+
+void deposit(double amt) {
+	balance += amt;
+	std::string fees = get_fees();
+	Transaction *tran = new Transaction(customer->get_customer_number(), "deposit", amt, fees);
+
+	transactions.push_back(tran);
+}
+
+void withdraw(double amt) {
+	balance -= amt;
+	std::string fees = get_fees();
+	Transaction *tran = new Transaction(customer->get_customer_number(), "withdraw", amt, fees);
+
+	transactions.push_back(tran);
+}
+};
+
+class Checking_Account : public Account {
+Checking_Account() {
+*customer = NULL;
+balance = NULL;
+account_number = NULL;
+}
+Checking_Account(Customer *cust) {
+	*customer = *cust;
+	balance = 0;
+	account_number = NULL;
+}
+
+virtual std::string to_string() {
+	std::stringstream ss; // for composing the string that describes this account		
+
+	ss << "  Name: " << customer->get_name()
+		<< "\n  Address: " << customer->get_address()
+		<< "\n  Age: " << customer->get_age()
+		<< "\n  Telephone number: " << customer->get_telephone_number()
+		<< "\n  Customer number: " << customer->get_customer_number()
+		<< "\n  Balance: " << balance
+		<< "\n  Account ID: " << account_number << std::endl;
+	return ss.str();
+}
+
+void deposit(double amt) {
+	balance += amt;
+	std::string fees = get_fees();
+	Transaction *tran = new Transaction(customer->get_customer_number(), "deposit", amt, fees);
+
+	transactions.push_back(tran);
+}
+
+void withdraw(double amt) {
+	balance -= amt;
+	std::string fees = get_fees();
+	Transaction *tran = new Transaction(customer->get_customer_number(), "withdraw", amt, fees);
+
+	transactions.push_back(tran);
+}
+};
 
 #endif
