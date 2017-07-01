@@ -1,0 +1,12 @@
+﻿  Source.cpp
+c:\users\timothy\desktop\32\cs-273\exam2\exam2\partyfactory.h(26): error C2259: 'BirthdayParty': cannot instantiate abstract class
+  c:\users\timothy\desktop\32\cs-273\exam2\exam2\partyfactory.h(26): note: due to following members:
+  c:\users\timothy\desktop\32\cs-273\exam2\exam2\partyfactory.h(26): note: 'PartyTicket *Party::add(std::string)': is abstract
+  c:\users\timothy\desktop\32\cs-273\exam2\exam2\party.h(17): note: see declaration of 'Party::add'
+  c:\users\timothy\desktop\32\cs-273\exam2\exam2\partyfactory.h(26): note: 'void Party::list(void)': is abstract
+  c:\users\timothy\desktop\32\cs-273\exam2\exam2\party.h(22): note: see declaration of 'Party::list'
+  DinnerPartyTicket.cpp
+  BirthdayPartyTicket.cpp
+c:\users\timothy\desktop\32\cs-273\exam2\exam2\birthdaypartyticket.cpp(7): error C2509: 'leave': member function not declared in 'BirthdayPartyTicket'
+  c:\users\timothy\desktop\32\cs-273\exam2\exam2\birthdaypartyticket.h(9): note: see declaration of 'BirthdayPartyTicket'
+  Generating Code...
