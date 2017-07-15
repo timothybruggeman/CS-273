@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\timothy\desktop\32\cs-273\273 documents\priorityqueue\priorityqueue\source.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\timothy\desktop\32\cs-273\273 documents\priorityqueue\priorityqueue\person.h(46): warning C4715: 'Person::operator<': not all control paths return a value
+  PriorityQueue.vcxproj -> C:\Users\Timothy\Desktop\32\CS-273\273 Documents\PriorityQueue\Debug\PriorityQueue.exe
+  PriorityQueue.vcxproj -> C:\Users\Timothy\Desktop\32\CS-273\273 Documents\PriorityQueue\Debug\PriorityQueue.pdb (Partial PDB)

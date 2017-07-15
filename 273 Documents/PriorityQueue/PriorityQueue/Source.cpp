@@ -12,12 +12,17 @@ int main()
 {	
 	srand(time(NULL));
 	
-	// Todo: Create a priority queue called pqueue that can hold person objects and add 3 persons to the priority queue
-	// Dont forget to fix the Person class in Person.h and overload operator<()
+	priority_queue<Person> pqueue;
+
+	pqueue.push(Person("Joe", 35));
+	pqueue.push(Person("Mary", 37));
+	pqueue.push(Person("Sue", 27));
+	
 
 	while (!pqueue.empty()) {
 		cout << pqueue.top().Name() << endl;
 		pqueue.pop();
 	}
 
+	int stop; cin >> stop;
 }

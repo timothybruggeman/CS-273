@@ -36,16 +36,13 @@ public:
 		return age;
 	}
 
-	bool operator<(int age) {
-		if (age < this->age) return true;
+	bool operator<(const Person& other) const {
+		if (this->name < other.Name())
+			return true;
+		else if ((this->name < other.Name())&&(this->age<other.Age())) {
+
+		}
 		else return false;
 	}
-	/**
-	* TODO: Overload the operator<( ) for a person object
-	*/
-
-
-
-
 };
 #endif
