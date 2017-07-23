@@ -1,0 +1,117 @@
+﻿  Source.cpp
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): error C2504: 'Healthworker': base class undefined
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(12): error C2065: 'currently_working': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(13): error C2065: 'working_time': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(14): error C2065: 'working_time': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(15): error C2065: 'currently_working': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(16): error C2065: 'working_time': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(12): error C2065: 'Nurse': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(12): error C2923: 'std::vector': 'Nurse' is not a valid template type argument for parameter '_Ty'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(12): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(14): error C2065: 'Visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(14): error C2923: 'std::vector': 'Visit' is not a valid template type argument for parameter '_Ty'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(14): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(37): error C3646: 'get_nurse': unknown override specifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(37): error C2059: syntax error: '('
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(37): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(44): error C2065: 'Visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(44): error C2923: 'std::vector': 'Visit' is not a valid template type argument for parameter '_Ty'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(44): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(92): warning C4624: 'Hospital': destructor was implicitly defined as deleted
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(17): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(18): error C2512: 'std::vector': no appropriate default constructor available
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(20): error C2664: 'void std::vector<Doctor,std::allocator<_Ty>>::push_back(const Doctor &)': cannot convert argument 1 from 'Doctor *' to 'Doctor &&'
+          with
+          [
+              _Ty=Doctor
+          ]
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(20): note: Reason: cannot convert from 'Doctor *' to 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(20): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(23): error C2061: syntax error: identifier 'Nurse'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(23): error C2663: 'std::vector<_Ty,_Alloc>::push_back': 2 overloads have no legal conversion for 'this' pointer
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(45): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(45): note: Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(58): error C2039: 'get_currently_working': is not a member of 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): note: see declaration of 'Doctor'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(60): error C2039: 'set_current_patient': is not a member of 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): note: see declaration of 'Doctor'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(61): error C2065: 'Visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(61): error C2146: syntax error: missing ';' before identifier 'visit'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(61): error C3861: 'visit': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(62): error C2065: 'visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(63): error C2039: 'set_currently_working': is not a member of 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): note: see declaration of 'Doctor'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(67): error C3861: 'get_nurse': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(67): error C2228: left of '.get_currently_working' must have class/struct/union
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(67): note: type is 'unknown-type'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(69): error C3861: 'get_nurse': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(69): error C2228: left of '.set_current_patient' must have class/struct/union
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(69): note: type is 'unknown-type'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(70): error C2065: 'Visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(70): error C2146: syntax error: missing ';' before identifier 'visit'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(70): error C3861: 'get_nurse': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(70): error C3861: 'visit': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(71): error C2065: 'visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(72): error C3861: 'get_nurse': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(72): error C2228: left of '.set_currently_working' must have class/struct/union
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(72): note: type is 'unknown-type'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(74): error C3861: 'get_nurse': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(76): error C2039: 'get_currently_working': is not a member of 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): note: see declaration of 'Doctor'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(78): error C2039: 'set_current_patient': is not a member of 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): note: see declaration of 'Doctor'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(79): error C2065: 'Visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(79): error C2146: syntax error: missing ';' before identifier 'visit'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(79): error C3861: 'visit': identifier not found
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(80): error C2065: 'visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(81): error C2039: 'set_currently_working': is not a member of 'Doctor'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\doctor.h(6): note: see declaration of 'Doctor'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(85): warning C4018: '<': signed/unsigned mismatch
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(86): error C3867: 'Doctor::update': non-standard syntax; use '&' to create a pointer to member
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(88): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(88): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(88): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(89): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(89): note: while trying to match the argument list '(std::vector, int)'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\hospital.h(89): error C2228: left of '.update' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(63): error C2065: 'Visit': undeclared identifier
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(63): error C2923: 'std::vector': 'Visit' is not a valid template type argument for parameter '_Ty'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(63): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(63): error C2514: 'std::vector': class has no constructors
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(679): note: see declaration of 'std::vector'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(64): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(64): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(64): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(66): error C2662: '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(66): note: Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(66): note: Conversion requires a second user-defined-conversion operator or constructor
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(67): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(67): note: while trying to match the argument list '(std::vector, int)'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(67): error C2228: left of '.get_patient' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(67): error C2228: left of '.get_first_name' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(67): error C2088: '[': illegal for class
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(68): error C2228: left of '.get_last_name' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(68): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(68): note: while trying to match the argument list '(std::vector, int)'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(69): error C2228: left of '.get_time_of_visit' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(69): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(69): note: while trying to match the argument list '(std::vector, int)'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(70): error C2228: left of '.get_illness_severity' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(70): error C2678: binary '[': no operator found which takes a left-hand operand of type 'std::vector' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1229): note: could be '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(1213): note: or       '_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const'
+  c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(70): note: while trying to match the argument list '(std::vector, int)'
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(70): error C2228: left of '.get_healthworker' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(70): error C2228: left of '.get_last_name' must have class/struct/union
+c:\users\timothy\desktop\32\cs-273\finalproject\finalproject\simulator.h(70): error C2065: 'endl': undeclared identifier
