@@ -1,6 +1,12 @@
 #ifndef HOSPITAL_H_
 #define HOSPITAL_H_
 
+#include "Citizen.h"
+#include "Doctor.h"
+#include "Nurse.h"
+//#include "Random.h"
+#include "Visit.h"
+
 extern Random my_random;
 
 class Hospital {
@@ -98,7 +104,7 @@ public:
 			get_nurse(false).set_current_patient(&Kane);
 			Visit visit(Kane, clock, Kane.get_priority(), get_nurse(false));
 			visit_list.push_back(visit);
-			get_nurse(false).set_currently_working = true;
+			get_nurse(false).set_currently_working(true);
 			high_priorty_citizen_queue.pop();
 			get_nurse(true);
 		}
@@ -115,11 +121,11 @@ public:
 		}
 
 		//Updates all the healthworkers, increasing the amount of time they have been working
-		for (int i = 0; i < doctor_list.size(); i++) {
-			doctor_list[i].update;
+		for (unsigned int i = 0; i < doctor_list.size(); i++) {
+			doctor_list[i].update();
 		}
-		for (int i = 0; i < nurse_list.size(); i++) {
-			nurse_list[i].update;
+		for (unsigned int i = 0; i < nurse_list.size(); i++) {
+			nurse_list[i].update();
 		}
 	}
 };

@@ -1,6 +1,9 @@
 #ifndef VISIT_H_
 #define VISIT_H_
 
+#include "Citizen.h"
+#include "HealthWorker.h"
+
 class Visit {
 private:
 	//Who is being treated

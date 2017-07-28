@@ -1,6 +1,9 @@
 #ifndef NURSE_H_
 #define NURSE_H_
 
+#include "HealthWorker.h"
+//#include "Random.h"
+
 extern Random my_random;
 
 class Nurse : public Healthworker {

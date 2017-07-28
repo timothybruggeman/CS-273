@@ -115,6 +115,7 @@
     <ClInclude Include="HealthWorker.h" />
     <ClInclude Include="Hospital.h" />
     <ClInclude Include="Nurse.h" />
+    <ClInclude Include="Random.h" />
     <ClInclude Include="Simulator.h" />
     <ClInclude Include="Visit.h" />
   </ItemGroup>

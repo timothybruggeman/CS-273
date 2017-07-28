@@ -1,6 +1,8 @@
 #ifndef CITIZEN_H_
 #define CITIZEN_H_
 
+//#include "Random.h"
+
 extern Random my_random;
 
 class Citizen {
